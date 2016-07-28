@@ -29,7 +29,12 @@
  		- >> git remote remove origin (remote를 잘못 입력했을 경우 삭제한다) 
  		- >> git push -u origin master (github에 올리기 -u origin master는 최초에 한번 올리때만 한다 .그리고 아이디와 비밀번호를 입력한다. ) 
  		
+ 	-다른 개발자가 clone을 수행
+ 		- >> git clone	https://github.com/sellbyj(다운받을 사람의 아이디)/MosaicWeb.git(다운받을 곳) (github에 올려진 파일을 다운받는다)
+ 		- >> git clone	https://github.com/sellbyj(다운받을 사람의 아이디)/MosaicWeb.git(다운받을 곳) MosaicWebDev(저장할 파일명이며 자동으로 저장파일을 만들어준다)
+ 		- >> Eclipse Gradle Import (다운받을걸 이클립스로 옮긴다)
  		
+ 		- 
  		
  		
  		
