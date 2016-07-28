@@ -8,5 +8,8 @@
 </head>
 <body>
 <h1>Hello.jsp</h1>
+<% for(int i=0; i<10;i++){%>
+	<h1>Hello.jsp 실행 확인 i= <%=i %></h1>
+<% } %>
 </body>
 </html>
