@@ -51,11 +51,15 @@
 	- gradle bootRun
 	- Firefox -> http://localhost:8080/Hello.jsp
 	
-	
+5.Servlet
+	- Prject facets 추가
+		- >> Dynamic Web Module 3.1 추가 
+		- >> java 1.8 추가
+		- >> Javascript 1.0 추가
 
-	
-	
-4.Servlet
+	- MosaicWebApplication.java <<
+	@SErvletCompon
+
 5.SpringLoaded( 서버가 살아있는 상태에서 수정했을때 반응하기 위해서)
 6.Mybatis(db연동)
 7.Gluon
