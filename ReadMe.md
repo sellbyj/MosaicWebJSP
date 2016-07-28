@@ -5,10 +5,10 @@
  	- Group : com.hybrid
  	- Artifact : MosaicWeb
  	- Package : com.hybrid
- 	-  Dependencies : Web 선택했음
+ 	- Dependencies : Web 선택했음
  
  
- 2. 형상관리 Remote Repository 생성 (github.com)
+2. 형상관리 Remote Repository 생성 (github.com)
  	- Remote Repository 생성한다. (github에 생성한다.)
  	- Local Repository 생성한다. 
  	- Local --> Remote push한다(최초 동기화)
@@ -34,7 +34,9 @@
  		- >> git clone	https://github.com/sellbyj(다운받을 사람의 아이디)/MosaicWeb.git(다운받을 곳) MosaicWebDev(저장할 파일명이며 자동으로 저장파일을 만들어준다)
  		- >> Eclipse Gradle Import (다운받을걸 이클립스로 옮긴다)
  		
- 		- 
- 		
+ 		- >> git pull (변경된 사항을 다운받는다 )
+ 
+
+ 
  		
  		
