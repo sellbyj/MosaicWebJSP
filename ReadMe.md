@@ -12,12 +12,24 @@
  	- Remote Repository 생성한다. (github에 생성한다.)
  	- Local Repository 생성한다. 
  	- Local --> Remote push한다(최초 동기화)
- 		>> dir /A > .gitignore ( 형상관리 할 목록은 만들기 위해서 노트패드에 파일명을 전부다 적는 작업)
- 		>> notepad .gitignore 편집 (사진참조 : 형상관리를 하지 않을 {무시할} 파일만 명시한다)
- 		>> git init
- 		>> git status ( github와  작업한 local의 자료의 비교하여 차이를 알려준다) 
- 		>> git add *
- 		>> git commit -m "fist commit"
+ 		- >> git status ( github와  작업한 local의 자료의 비교하여 차이를 알려준다) 
+ 		- >> dir /A > .gitignore ( 형상관리 할 목록은 만들기 위해서 노트패드에 파일명을 전부다 적는 작업)
+ 		- >> notepad .gitignore 편집 (사진참조 : 형상관리를 하지 않을 {무시할} 파일만 명시한다)
+ 		- >> git init
+ 		- >> git status ( github와  작업한 local의 자료의 비교하여 차이를 알려준다) 
+ 		- >> git add * ( commit하기 전  작업한 자료들이 한 곳에 뭉친다  , stage area 상태이다. github에 업로드하기 위해 그 전 준비상태이다. 
+ 							work stage(pc) -> stage area -> Local stage(github)
+ 		- >> git commit -m "확장본에 대한 설명" ( 변경된 내용을 확정한다)
+ 		- >> git log (어떤것이 지금 stage area에 commit이 되어 있는지 알려준다)
  	- Local --> Remote push(최초 동기화)
- 		>> git remote add origin https://github.com/webprotols(자신의 github 아이디 입력란)/MosaicWeb.git(github에 만들었던 장소)
- 		>> git push -u origin master (github에 올리기)
+ 		- >> git remote -v (현재 commit한 자료를 볼수 있다)
+ 		- >> git remote add origin https://github.com/sellbyj(자신의 github 아이디 입력란)/MosaicWeb.git(github에 만들었던 장소) 
+ 										(commit한 자료를 github에 올릴 장소를 지정한다)
+ 		- >> git remote -v (현재 commit한 자료를 볼수 있다)
+ 		- >> git remote remove origin (remote를 잘못 입력했을 경우 삭제한다) 
+ 		- >> git push -u origin master (github에 올리기 -u origin master는 최초에 한번 올리때만 한다 .그리고 아이디와 비밀번호를 입력한다. ) 
+ 		
+ 		
+ 		
+ 		
+ 		
