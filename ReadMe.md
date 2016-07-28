@@ -36,6 +36,20 @@
  		
  		- >> git pull (변경된 사항을 다운받는다 )
  
+3.HTML 설정
+	-설정 불필요
+	-mkdir src/main/webapp 폴더 생성한다
+	-notepad src/main/webapp/Hello.html  Hello(이름)의 html을 생성한다.
+	-gradle bootRun 
+		- http://localhost:8080/Hello.html 검색해서 작동되는지 확인하기.
+		
+	-Firefox --> http://localhost:8080/Hello.html
+	
+	
+4.Servlet
+5.SpringLoaded( 서버가 살아있는 상태에서 수정했을때 반응하기 위해서)
+6.Mybatis(db연동)
+7.Gluon
 
  
  		
