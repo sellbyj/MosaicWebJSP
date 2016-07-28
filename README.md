@@ -46,21 +46,30 @@
 	
 4.JSP 설정
 	- mvnrepository.com >> search: Tomcat Embed Jasper » 8.5.4  (인터넷 홈페이지 들어가서 검색한 다음 gradle tap에서 주소를 찾아온다)
-	- build.gradle dependency : compile group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '8.5.4'	
+	- build.gradle dependency : providedRuntime group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '8.5.4'	
 	- notepad src/main/webapp/Hello.jsp
 	- gradle bootRun
 	- Firefox -> http://localhost:8080/Hello.jsp
 	
 5.Servlet
-	- Prject facets 추가
+	- Project facets 추가
 		- >> Dynamic Web Module 3.1 추가 
 		- >> java 1.8 추가
 		- >> Javascript 1.0 추가
+	- MosaicWebApplication.java << 생성	@ServletComponentScan 추가
 
-	- MosaicWebApplication.java <<
-	@SErvletCompon
-
-5.SpringLoaded( 서버가 살아있는 상태에서 수정했을때 반응하기 위해서)
+6.SpringLoaded( 서버가 살아있는 상태에서 수정했을때 반응하기 위해서)
+	-mvnrepository.com >> search: springloaded
+	-build.gredle에 설정 (두곳)
+		classpath("org.springframework:springloaded:1.2.6.RELEASE")
+		compile group: 'org.springframework', name: 'springloaded', version: '1.2.6.RELEASE'
+	-Elipse Output Directory 변경
+		bin --> build/classes/main
+			
+		
+		
+		
+	
 6.Mybatis(db연동)
 7.Gluon
 

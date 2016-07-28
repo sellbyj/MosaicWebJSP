@@ -9,22 +9,23 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.springframework.boot.web.servlet.ServletComponentScan;
+
 /**
  * Servlet implementation class HelloServlet
  */
 @WebServlet("/HelloServlet")
 public class HelloServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
     /**
      * @see HttpServlet#HttpServlet()
      */
     public HelloServlet() {
-        super();
-        
+       super();
         System.out.println("##########################");
         System.out.println("HelloServlet()............");
         System.out.println("##########################");
+        
     }
 
 	/**
@@ -36,7 +37,7 @@ public class HelloServlet extends HttpServlet {
 	       System.out.println("doGet()............");
 	       System.out.println("##########################");
 	       
-	       response.setContentType("text/html;charset=utf-8");
+	       response.setContentType("text/html; charset=utf-8");
 	       PrintWriter out = response.getWriter();
 	       out.println("<!DOCTYPE html>");
 	       out.println("<html>");
@@ -46,7 +47,13 @@ public class HelloServlet extends HttpServlet {
 
 	       
 	       out.println("<body>");
-	       out.println("<h1>HelloServlet 실행 확인됨 </h1>");
+	       out.print("METHOD = " + request.getMethod());
+	       for(int i=0; i<10 ; i++){
+	    	   
+	    	   out.println("<h1>HelloServlet 실행 확인됨 </h1>");
+	    	   
+	       }
+	       
 	       out.println("</body>");
 	       out.println("</html>");
 	}
