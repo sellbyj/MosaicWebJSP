@@ -41,9 +41,18 @@
 	-mkdir src/main/webapp 폴더 생성한다
 	-notepad src/main/webapp/Hello.html  Hello(이름)의 html을 생성한다.
 	-gradle bootRun 
-		- http://localhost:8080/Hello.html 검색해서 작동되는지 확인하기.
-		
+		- http://localhost:8080/Hello.html 검색해서 작동되는지 확인하
 	-Firefox --> http://localhost:8080/Hello.html
+	
+4.JSP 설정
+	- mvnrepository.com >> search: Tomcat Embed Jasper » 8.5.4  (인터넷 홈페이지 들어가서 검색한 다음 gradle tap에서 주소를 찾아온다)
+	- build.gradle dependency : compile group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '8.5.4'	
+	- notepad src/main/webapp/Hello.jsp
+	- gradle bootRun
+	- Firefox -> http://localhost:8080/Hello.jsp
+	
+	
+
 	
 	
 4.Servlet
