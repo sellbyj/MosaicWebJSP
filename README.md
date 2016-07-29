@@ -84,8 +84,17 @@
 	- notepad src/main/webapp/dept.jsp
 	-
 
-8.Gluon
+8. Deploy 방법
+	- gradle war (cmd에서 명령어 사용한다 )
+	- build/libs/MosaicWeb.war 위치에 만들어진다.
+	- cp  MosaicWeb.war C:\Program Files\Apache Software Foundation\Tomcat 8.5\webapps 
+		 (MosaicWeb.war 파일을 C:\Program Files\Apache Software Foundation\Tomcat 8.5\webapps위치에 복사하면된다)
+	- WebBrower에서 http://localhost/MosaicWeb/index.html
 
- 
+9. Gluon 설정
+	- cp FXTemplate/src/* MosaicWeb/src (gluon 의 src/main 파잉을  MosaicWeb/src 에 복사한다.)
+	- merge FXTemplate/build.gradle MosaicWeb/build.gradle
+	- merge com.hybrid.fx.MainApplication   <-->  com.hybrid.MosaicWebApplication 
+	  (따로 움직이기 때문에 같이 실행되도록한다)
  		
  		
