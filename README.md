@@ -67,7 +67,7 @@
 		bin --> build/classes/main
 	
 7.Mybatis(db연동)
-	- mnvrepository.com >? search : spring boot mybatis
+	- mnvrepository.com --> search : spring boot mybatis
 	- build.gradle에 Dependency 설정
 		compile group: 'org.mybatis.spring.boot', name: 'mybatis-spring-boot-starter', version: '1.1.1'
 		compile files('src/main/webapp/WEB-INF/lib/ojdbc7.jar');
@@ -79,8 +79,10 @@
 	- Eclipse Gradle Refresh 수행
 	- gradle bootRun (하면 에러가 난다  -> 먼저 에러를 조치하고 인터페이스를 수정한다)
 	- notepad src/main/java/com/hybrid/mapper/DeptMapper.java 인터페이스 생성
-	- notepad src/main/java/com/hybrid/dao/DeptDao.java
-
+	- notepad src/main/java/com/hybrid/dao/Dept.java
+	- notepad src/main/java.com/hybrid/mapper/DeptMapperTest.java
+	- notepad src/main/webapp/dept.jsp
+	-
 
 8.Gluon
 
