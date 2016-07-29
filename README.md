@@ -65,13 +65,24 @@
 		compile group: 'org.springframework', name: 'springloaded', version: '1.2.6.RELEASE'
 	-Elipse Output Directory 변경
 		bin --> build/classes/main
-			
-		
-		
-		
 	
-6.Mybatis(db연동)
-7.Gluon
+7.Mybatis(db연동)
+	- mnvrepository.com >? search : spring boot mybatis
+	- build.gradle에 Dependency 설정
+		compile group: 'org.mybatis.spring.boot', name: 'mybatis-spring-boot-starter', version: '1.1.1'
+		compile files('src/main/webapp/WEB-INF/lib/ojdbc7.jar');
+	- application.properties
+		spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+		spring.datasource.url=jdbc:oracle:thin:@52.78.70.89:1521:orcl
+		spring.datasource.username=scott
+		spring.datasource.password=tiger	
+	- Eclipse Gradle Refresh 수행
+	- gradle bootRun (하면 에러가 난다  -> 먼저 에러를 조치하고 인터페이스를 수정한다)
+	- notepad src/main/java/com/hybrid/mapper/DeptMapper.java 인터페이스 생성
+	- notepad src/main/java/com/hybrid/dao/DeptDao.java
+
+
+8.Gluon
 
  
  		
