@@ -13,6 +13,7 @@
 </head>
 <body>
 <h1>Dept test</h1>
+
 <%
 	ApplicationContext ctx = WebApplicationContextUtils.getRequiredWebApplicationContext(this.getServletContext());
 	DeptMapper mapper = ctx.getBean(DeptMapper.class);

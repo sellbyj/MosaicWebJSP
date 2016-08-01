@@ -2,6 +2,8 @@ package com.hybrid.mapper;
 
 import java.util.List;
 
+import javax.servlet.jsp.PageContext;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -13,7 +15,6 @@ public class DeptMapperTest {
 
 	public static void main(String[] args) {
 
-//		ConfigurableApplicationContext ctx = SpringApplication.run(MosaicWebApplication.class, args);
 		ConfigurableApplicationContext ctx = SpringApplication.run(MosaicWebApplication.class, args);
 	try{
 		
@@ -24,6 +25,7 @@ public class DeptMapperTest {
 		/*
 		 * Insert
 		 */
+		
 		mapper.insert(new Dept(55, "총무부","서울"));
 		
 		Dept d = mapper.seletByDeptno(55);

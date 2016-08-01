@@ -96,5 +96,10 @@
 	- merge FXTemplate/build.gradle MosaicWeb/build.gradle
 	- merge com.hybrid.fx.MainApplication   <-->  com.hybrid.MosaicWebApplication 
 	  (따로 움직이기 때문에 같이 실행되도록한다)
+ 		->>
+ 		
+ 		
+ 		
+ 		
  		
  		

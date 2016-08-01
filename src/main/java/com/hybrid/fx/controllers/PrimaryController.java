@@ -48,11 +48,18 @@ public class PrimaryController {
         
         button.setOnAction(e -> viewManager.switchView("secondary"));
         String homeAddress ="http://localhost:8080/index.html";
+       
         url.setText(homeAddress);
+        
         
         
         WebEngine engine = myweb.getEngine();
         engine.load(homeAddress);
+        
+        
+        url.setOnAction(event->{
+        	engine.load(url.getText());
+        });
         
         home.setOnAction(event ->{
         	url.setText(homeAddress);
