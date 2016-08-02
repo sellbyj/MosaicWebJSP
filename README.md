@@ -96,7 +96,16 @@
 	- merge FXTemplate/build.gradle MosaicWeb/build.gradle
 	- merge com.hybrid.fx.MainApplication   <-->  com.hybrid.MosaicWebApplication 
 	  (따로 움직이기 때문에 같이 실행되도록한다)
- 		->>
+ 		->> spring boot + gluon start
+ 		->> spring boot + gluon stop
+ 		->> PrimaryView 에 WebView 추가
+ 		
+ 10. SiteMesh 설정
+ 	- mvnreposity.com >> search : sitemesh
+ 	- build.gradle dependencies 추가
+ 		->> compile group: 'org.sitemesh', name: 'sitemesh', version: '3.0.1'
+ 	-builder.addDecoratorPath("/deco/*", "/WEB-INF/deco/maindeco.jsp");  Spring 설정방법  class 파일을 직접 확인해라
+ 
  		
  		
  		
