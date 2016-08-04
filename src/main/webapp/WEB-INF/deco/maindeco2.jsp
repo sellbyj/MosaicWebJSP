@@ -8,8 +8,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>maindeco2.jsp<sitemesh:write property="title"/></title>
 <style type="text/css">
- .headerdiv1{
+ .headerUl{
  	background-color: blue;
+ 	border: 1px dotted red;
+ 	float: left;
  	
  }
 .footerdiv2{
@@ -20,11 +22,18 @@
 <body>
 <section>
 <article>
-	<div class="headerdiv1">
-		<p>
-			<h1> This is start</h1>	
-		</p>
-	</div>
+		<ul class="headerUl">
+			<li class="home">chap01</li>		
+			<li class="home">chap02</li>		
+			<li class="home">chap03</li>		
+			<li class="home">chap04</li>		
+			<li class="home">chap05</li>		
+			<li class="home">chap06</li>		
+			<li class="home">chap07</li>		
+			<li class="home">chap08</li>		
+			<li class="home">chap09</li>		
+			<li class="home">chap010</li>		
+		</ul>
 <br>
 </article>
 <article>
