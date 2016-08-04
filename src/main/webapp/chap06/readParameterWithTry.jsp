@@ -13,5 +13,7 @@
  <% } catch(Exception ex) { %>
  name 파라미터가 올바르지 않습니다.
  <% } %>
+ 
+ <h1><a href="http://localhost:8080">home</a></h1>
 </body>
 </html>

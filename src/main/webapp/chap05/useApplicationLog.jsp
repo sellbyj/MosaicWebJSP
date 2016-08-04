@@ -11,5 +11,6 @@
 	application.log("로그 메시지 리록");
 %>
 	로그 메시지를 기록합니다.
+	<h1><a href="http://localhost:8080">home</a></h1>
 </body>
 </html>

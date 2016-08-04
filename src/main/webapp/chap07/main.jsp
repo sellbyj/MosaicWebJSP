@@ -12,6 +12,6 @@ main.jsp에서 생성한 내용.
 <jsp:include page="sub.jsp" flush="false" />
 
 include 이후 의 내용.
-
+<h1><a href="http://localhost:8080">home</a></h1>
 </body>
 </html>

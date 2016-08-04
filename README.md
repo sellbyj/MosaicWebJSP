@@ -107,8 +107,13 @@
  	-builder.addDecoratorPath("/deco/*", "/WEB-INF/deco/maindeco.jsp");  Spring 설정방법  class 파일을 직접 확인해라
  
  		
+ 		 		
  		
- 		
- 		
+ 11. Spring Security 설정
+ 	- mvnreposity.com  >> search : spring boot scurity
+ 	- build.gradle dependencies 추가
+ 		->> compile('org.springframework.boot:spring-boot-starter-security')
+        ->> compile group : 'org.springframework.security'  name :'spring-security-taglibs', version:' 4.0.4.RELEASE'
+ 	
  		
  		

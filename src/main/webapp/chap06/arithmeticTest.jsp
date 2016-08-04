@@ -8,12 +8,12 @@
 </head>
 <body>
 <h1>arithmeticTest.jsp</h1>
+<h1><a href="http://localhost:8080">home</a></h1>
 <%
 
 	int num=10;
 	num = num/ 0;
 %>
-
 
 </body>
 </html>

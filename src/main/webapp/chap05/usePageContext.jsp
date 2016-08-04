@@ -17,6 +17,7 @@
 pageContext.getOut() 메서드를 사용한 데이터 출력:
 
 <% pageContext.getOut().println("안녕하세요!"); %>
+<h1><a href="http://localhost:8080">home</a></h1>
 
 </body>
 </html>

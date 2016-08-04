@@ -12,5 +12,6 @@
 <body>
 <%= member.getName() %> (<%= member.getId() %>) 회원님
 Hello
+<h1><a href="http://localhost:8080">home</a></h1>
 </body>
 </html>

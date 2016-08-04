@@ -11,5 +11,6 @@
 <% for(int i=0; i<10;i++){%>
 	<h1>Hello.jsp 실행 확인 i= <%=i %></h1>
 <% } %>
+<h1><a href="http://localhost:8080">home</a></h1>
 </body>
 </html>

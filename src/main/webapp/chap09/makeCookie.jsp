@@ -27,6 +27,7 @@
 	
 	
 %>
+<h1><a href="http://localhost:8080">home</a></h1>
 
 <h1> 쿠키생성</h1>
 </body>

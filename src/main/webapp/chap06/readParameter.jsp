@@ -9,5 +9,6 @@
 </head>
 <body>
 	name 파라미터 값: <%= request.getParameter("name").toUpperCase() %>
+	<h1><a href="http://localhost:8080">home</a></h1>
 </body>
 </html>
