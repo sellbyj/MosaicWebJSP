@@ -7,6 +7,14 @@
 <title>Hello.jsp</title>
 </head>
 <body>
-<h1><a href="http://localhost:8080">home</a></h1>
+	<h1>  1+1 </h1>
+	<h1> <%= 1+1 %> </h1>
+	<h1>  ${1+1} </h1>
+	
+	  표현식 = <%= request.getParameter("name") %><br>
+	
+	 el = ${ param.name }
+
+
 </body>
 </html>
